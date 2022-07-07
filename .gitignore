@@ -1,0 +1,7 @@
+# Hugo
+public/
+resources/
+
+# OSX
+.DS_Store
+resources/_gen/assets/scss/scss/main.scss_c3884c7e96caf852201ac3338d16cfa6.content

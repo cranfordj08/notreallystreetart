@@ -1,0 +1,15 @@
+<html>
+{{ partial "head" . }}
+<body>
+
+     <section class="container content">
+        {{.Content}}
+     </section>
+     <section class="container quote-list grid grid-3-col">
+        {{ range .Pages }}
+          {{ partial "quote.html" . }}
+        {{ end }}
+      </section>
+
+</body>
+</html>

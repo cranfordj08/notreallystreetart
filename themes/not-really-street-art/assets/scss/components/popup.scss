@@ -1,0 +1,59 @@
+.popup {
+  border: 2px solid var(--tertiary-color);
+  background: var(--secondary-color);
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  max-width: 450px;
+  max-height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-rows: 40px 1fr;
+
+  --closed {
+    display: none;
+  }
+
+  &__header {
+    background: var(--quaternary-color);
+    border-bottom: 2px solid var(--tertiary-color);
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    height: 40px;
+  }
+
+  &__title {
+    align-self: center;
+    font-size: 1rem;
+    color: var(--tertiary-color);
+  }
+
+  &__exit {
+    grid-column: 1;
+    border-right: 2px solid var(--tertiary-color);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    svg {
+      width: 20px;
+      color: var(--tertiary-color);
+    }
+  }
+
+  &__content {
+    color: var(--main-color);
+    align-self: center;
+    justify-self: center;
+    max-width: 232px;
+
+    svg {
+      width: 34px;
+      margin-top: 7vh;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+:root {
+  --main-color: #FF9D96; // popup text and main bg color
+  --secondary-color: #FDFCDC; // popup bg and body color
+  --tertiary-color: #00AFB9; // outline color
+  --quaternary-color: #FED9B7; // popup header color
+  --font: 'VT323', monospace;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  &:focus {
+    color: var(--main-color);
+  }
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  color: var(--secondary-color);
+  background-color: var(--main-color);
+  font-size: 2rem;
+  padding: 0;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 300ms ease-in-out;
+
+  @include hover {
+    color: var(--tertiary-color);
+  }
+}
