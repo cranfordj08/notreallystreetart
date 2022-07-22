@@ -1,33 +1,7 @@
-baseURL = "https://jessicacranford.com/"
+baseURL = "https://notreallystreetart.com/"
 languageCode = "en-us"
 title = "Not Really Street Art"
 theme = "not-really-street-art"
 
 [params]
   mainSections = ["quotes"]
-
-# [menu]
-
-#   [[menu.main]]
-#     identifier = "home"
-#     name = "Home"
-#     url = "/"
-#     weight = 1
-
-#   [[menu.main]]
-#     identifier = "plants"
-#     name = "Plants"
-#     url = "/plants/"
-#     weight = 2
-
-#   [[menu.main]]
-#     identifier = "blog"
-#     name = "Blog"
-#     url = "/blog/"
-#     weight = 3
-
-#   [[menu.main]]
-#     identifier = "contact"
-#     name = "Contact"
-#     url = "/contact/"
-#     weight = 4

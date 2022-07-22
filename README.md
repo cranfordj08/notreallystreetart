@@ -1,6 +1,6 @@
-# Plant website
+# Street Art website
 
-Code for my plant website.
+Code for my street art site.
 
 ## Compile public folder
 

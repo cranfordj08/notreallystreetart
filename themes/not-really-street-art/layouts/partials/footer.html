@@ -1,0 +1,12 @@
+<script>
+    const exitButton = document.querySelector('.popup__exit');
+    const popup = document.querySelector('.popup');
+
+    if(exitButton) {
+        exitButton.onclick = closePopup;
+
+        function closePopup() {
+            popup.classList.add('popup--closed');
+        }
+    }
+</script>

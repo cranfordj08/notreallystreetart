@@ -12,7 +12,7 @@
   display: grid;
   grid-template-rows: 40px 1fr;
 
-  --closed {
+  &--closed {
     display: none;
   }
 
