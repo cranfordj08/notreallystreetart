@@ -9,10 +9,10 @@
   background: var(--secondary-color);
   position: absolute;
   width: 90%;
-  height: 90%;
+  height: calc(90% - 35px);
   max-width: 450px;
   max-height: 600px;
-  top: 50%;
+  top: calc(50% - 35px);
   left: 50%;
   transform: translate(-50%, -50%);
   display: grid;
