@@ -9,14 +9,19 @@
   background: var(--secondary-color);
   position: absolute;
   width: 90%;
-  height: calc(90% - 35px);
+  height: 90%;
   max-width: 450px;
   max-height: 600px;
-  top: calc(50% - 35px);
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: grid;
   grid-template-rows: 40px 1fr;
+
+  @include screen-below($mobile) {
+    top: calc(50% - 35px);
+    height: calc(90% - 35px);
+  }
 
   &--closed {
     display: none;
